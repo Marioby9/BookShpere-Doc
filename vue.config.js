@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: "/BookSphere-Doc/"
+    publicPath: process.env.NODE_ENV === "production" ? "/BookSphere-Doc/" : "/"
 }
